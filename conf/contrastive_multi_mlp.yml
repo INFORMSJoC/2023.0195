@@ -1,0 +1,31 @@
+train:
+  batch_size: 32
+  n_epochs: 30
+  loss: "mse_loss"
+  grad_clip: 0
+
+model:
+  embedding_size: 384
+  hidden_size: [500, 200, 100]
+  hidden_layers: 3
+  dropout: 0.3
+  in_bn: True
+  hid_bn: True
+  out_bn: True
+
+optim:
+  optimizer: 'Adagrad'
+  lr: 0.003
+  weight_decay: 0.0000001
+
+contrastive:
+  lr_risk_pro: 1.0
+  lr_trans_pro: 0.7
+  lr_conv_pro: 0.6
+  lr_qa_pro: 1.0
+  trans_temperature: 0.15
+  conv_temperature: 0.1
+  qa_temperature: 0.1
+
+data:
+  label: 'firm_std_10_post'  # can choose 3,7,10,15,20,60
