@@ -4,7 +4,6 @@ This repo provides a reference implementation of **CML-Risk** as described in th
 
 ![Contrastive Objectives](pics/joc_figure.png)
 
-Submitted to JOC 2023 for review
 --------------------
 
 While the earnings transcript dataset cannot be publicly released due to the data provider's policy, we make our contrastive multi-tasking learning implementation publicly available.
