@@ -1,5 +1,7 @@
 # Divide-and-Contrast: A Machine Learning Method for Text-based Risk Prediction Using Earnings Conference Call Transcripts
 
+This archive is distributed in association with the INFORMS Journal on Computing under the MIT License.
+
 This repo provides a reference implementation of **CML-Risk** as described in the paper "Divide-and-Contrast: A Machine Learning Method for Text-based Risk Prediction Using Earnings Conference Call Transcripts":
 
 ![Contrastive Objectives](pics/joc_figure.png)
