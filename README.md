@@ -8,6 +8,8 @@ This repo provides a reference implementation of **CML-Risk** as described in th
 
 --------------------
 
+## Data
+
 While the earnings transcript dataset cannot be publicly released due to the data provider's policy, we make our contrastive multi-tasking learning implementation publicly available.
 
 Given that the length and label challenges are prevalent in financial markets, we hope that our design and findings can benefit researchers and practitioners and shed light on other financial prediction tasks.
