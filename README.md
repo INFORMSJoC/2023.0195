@@ -21,7 +21,7 @@ Given that the length and label challenges are prevalent in financial markets, w
 
 ### Dependencies
 
-Run the following to install a subset of necessary python packages for our code
+Run the following to install a set of necessary python packages for our code
 ```sh
 pip install -r requirements.txt
 ```
