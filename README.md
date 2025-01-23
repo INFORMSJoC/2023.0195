@@ -1,6 +1,9 @@
+[![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
+
+
 # Divide-and-Contrast: A Machine Learning Method for Text-based Risk Prediction Using Earnings Conference Call Transcripts
 
-This archive is distributed in association with the INFORMS Journal on Computing under the MIT License.
+This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
 
 This repo provides a reference implementation of **CML-Risk** as described in the paper "Divide-and-Contrast: A Machine Learning Method for Text-based Risk Prediction Using Earnings Conference Call Transcripts":
 
@@ -85,3 +88,21 @@ def compute_coherence_values(dictionary, corpus, texts, limit, start=2, step=3):
     return model_list, coherence_values
 ```
 Some NLP preprocessing techniques are needed, including converting text to lowercase, removing emojis, expanding contractions, removing punctuation, removing numbers, removing stopwords, lemmatization, etc.
+
+## Cite
+
+To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
+
+Below is the BibTex for citing this snapshot of the repository.
+
+```
+@misc{CacheTest,
+  author =        {Y. He, Y. Yang, D. Lian, and K. Zhang},
+  publisher =     {INFORMS Journal on Computing},
+  title =         {{Divide-and-Contrast: A Machine Learning Method for Text-based Risk Prediction Using Earnings Conference Call Transcripts}},
+  year =          {2025},
+  doi =           {},
+  url =           {https://github.com/INFORMSJoC/2023.0195},
+  note =          {Available for download at https://github.com/INFORMSJoC/2023.0195},
+}  
+```
